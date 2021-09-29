@@ -1,0 +1,14 @@
+.index__container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 20px;
+	grid-template-rows: 250px;
+	padding: 20px;
+	margin: 50px;
+	justify-content: space-evenly;
+}
+
+.index__textos {
+	text-align: center;
+	padding-bottom: 10px;
+}

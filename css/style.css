@@ -1,0 +1,43 @@
+.elementos__centrar {
+  text-align: center;
+}
+
+.index__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  -ms-grid-rows: 250px;
+      grid-template-rows: 250px;
+  padding: 20px;
+  margin: 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.index__textos {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.vuelos__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  -ms-grid-rows: 250px;
+      grid-template-rows: 250px;
+  padding: 20px;
+  margin: 70px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.vuelos__textos {
+  text-align: center;
+  padding-bottom: 10px;
+}
